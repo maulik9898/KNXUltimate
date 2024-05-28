@@ -17,7 +17,7 @@
     "lint-fix": "eslint --fix --ext .ts .",
     "test": "",
     "test-connection": "",
-    "prepare": "pnpm install typescript -g && pnpm build",
+    "prepare": "pnpm build",
     "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
   },
   "release-it": {
